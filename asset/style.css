@@ -1,0 +1,41 @@
+@font-face {
+    font-family: cyber;
+    src: url(./cyberverse/Cyberverse.otf);
+    src: url(./cyberverse/Cyberverse_Italic.otf);
+    src: url(./cyberverse/Cyberverse_Condensedotf);
+    src: url(./cyberverse/Cyberverse_Condensed_Italic.otf);
+    src: url(./cyberverse/Cyberverse_Condensed_Italic.otf);
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: #000000;
+    text-align: center;
+    font-family: cyber;
+    font-size: 48px;
+    color: #23D1FA;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.clock {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 200px;
+    min-height: 200px;
+
+    
+    
+}
