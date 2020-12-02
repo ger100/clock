@@ -3,4 +3,7 @@ function clock() {
     let time = (d.getHours()+":"+d.getMinutes()+":"+d.getSeconds());
     return time;
 }
-document.getElementsByClassName("wrap")[0].innerHTML = clock();
+function writeTime() {
+    document.getElementsByClassName("wrap")[0].innerHTML = clock();
+}
+let t=setInterval(writeTime,1000);   
